@@ -1,0 +1,134 @@
+{
+  "configVersion": 1,
+  "timestamp": 1591066853675,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es5.1528f21ce940bedb761d.js",
+        "/5-esnext.1528f21ce940bedb761d.js",
+        "/6-es5.02b33ba881df5f3fb769.js",
+        "/6-esnext.02b33ba881df5f3fb769.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es5.4c1c9330b486e3b4cca9.js",
+        "/main-esnext.4c1c9330b486e3b4cca9.js",
+        "/polyfills-es5.2a2a17a1be1ca8553329.js",
+        "/polyfills-es5.426f37acea71d08f60a6.js",
+        "/polyfills-esnext.426f37acea71d08f60a6.js",
+        "/runtime-es5.34b158963bd6fded23d4.js",
+        "/runtime-esnext.34b158963bd6fded23d4.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/MaterialIcons-Regular.4674f8ded773cb03e824.eot",
+        "/MaterialIcons-Regular.5e7382c63da0098d634a.ttf",
+        "/MaterialIcons-Regular.83bebaf37c09c7e1c3ee.woff",
+        "/MaterialIcons-Regular.cff684e59ffb052d72cb.woff2",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/HauntedHouseForeground.png",
+        "/assets/images/bat-body.png",
+        "/assets/images/bat-wing.png",
+        "/assets/images/loading-icon.gif",
+        "/assets/images/menu-icon.png",
+        "/assets/images/snack-bar/error.png",
+        "/assets/images/snack-bar/info.png",
+        "/assets/images/snack-bar/success.png",
+        "/assets/images/snack-bar/warning.png",
+        "/assets/scss/_variable.scss",
+        "/error.1296b7bf743d77ca4b1c.png",
+        "/info.7301a692e6aad15861b9.png",
+        "/success.8996c61eb29b5748d95e.png",
+        "/warning.810d779f4841bc5071d0.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-api",
+      "patterns": [
+        "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random"
+      ],
+      "strategy": "freshness",
+      "maxSize": 1,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/5-es5.1528f21ce940bedb761d.js": "13174169ead6d93d50f804e0e948d1b3286bc60e",
+    "/5-esnext.1528f21ce940bedb761d.js": "2f6c21342006e5f376100acb0477efc1e380ba26",
+    "/6-es5.02b33ba881df5f3fb769.js": "31cbfef667c6df15b6422a07b0226100309bb06b",
+    "/6-esnext.02b33ba881df5f3fb769.js": "f7fbf88422441521814a5a3d5be34d60b4575f06",
+    "/MaterialIcons-Regular.4674f8ded773cb03e824.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
+    "/MaterialIcons-Regular.5e7382c63da0098d634a.ttf": "fc05de31234e0090f7ddc28ce1b23af4026cb1da",
+    "/MaterialIcons-Regular.83bebaf37c09c7e1c3ee.woff": "c6c953c2ccb2ca9abb21db8dbf473b5a435f0082",
+    "/MaterialIcons-Regular.cff684e59ffb052d72cb.woff2": "09963592e8c953cc7e14e3fb0a5b05d5042e8435",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/HauntedHouseForeground.png": "13acf8a1bef98095be77b2ad581780f399a502a0",
+    "/assets/images/bat-body.png": "c8f7e00a6863a74e70f3cc58c8c8d3a9bd4f31d9",
+    "/assets/images/bat-wing.png": "60bc076129abba16e368bc3dadf04d96e032465b",
+    "/assets/images/loading-icon.gif": "16a19198d17c02e2d4be52c767bcc82ac36ded84",
+    "/assets/images/menu-icon.png": "2f7d8a78c31dc34cdc387fc7962e4124958c8399",
+    "/assets/images/snack-bar/error.png": "5380a78f57eced03a7a80e9cd3c4201677b8b729",
+    "/assets/images/snack-bar/info.png": "85299ab05c3023d2709bc3b76599ee4defc83b85",
+    "/assets/images/snack-bar/success.png": "e4e2065c3e818e69c0028da7c4dce15e8dc648be",
+    "/assets/images/snack-bar/warning.png": "68be2003eb03347ef89305fae0cb49e5e465422c",
+    "/assets/scss/_variable.scss": "edaad66a2cc2a463eddfb6fbbf9933787324e214",
+    "/error.1296b7bf743d77ca4b1c.png": "5380a78f57eced03a7a80e9cd3c4201677b8b729",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "b445f2a21aaf9a4695574d662396bd0b3e2c0c9d",
+    "/info.7301a692e6aad15861b9.png": "85299ab05c3023d2709bc3b76599ee4defc83b85",
+    "/main-es5.4c1c9330b486e3b4cca9.js": "ec2276b07e1a2cea6686e55a9102fffd147cd015",
+    "/main-esnext.4c1c9330b486e3b4cca9.js": "5cbe1275b6b429c868a7cebe1d84f4dba3161912",
+    "/polyfills-es5.2a2a17a1be1ca8553329.js": "4d99cb6e3b98bf0937923cdd2b2d1f3d579c5d23",
+    "/polyfills-es5.426f37acea71d08f60a6.js": "c4011974fc7d91546f9eb6abbd2b3304f8211c1e",
+    "/polyfills-esnext.426f37acea71d08f60a6.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/runtime-es5.34b158963bd6fded23d4.js": "24ae83dceffdcc4a538273478dcc2ac0c9b1b71f",
+    "/runtime-esnext.34b158963bd6fded23d4.js": "c26a3a7faaf803b30b29a973f0756d5d45290c0c",
+    "/success.8996c61eb29b5748d95e.png": "e4e2065c3e818e69c0028da7c4dce15e8dc648be",
+    "/warning.810d779f4841bc5071d0.png": "68be2003eb03347ef89305fae0cb49e5e465422c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
